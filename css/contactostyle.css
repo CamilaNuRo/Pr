@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    background: #379bdd;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffffe7, #6dd4fa88, #297fb988),url(/img/fondodepp); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ffffff8f, #6dd4fa88, #45a4e488),url(/img/fondodepp); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size:cover;
+    background-attachment: fixed;
+    color: #000;
+    position: relative;
+}
+.contenedor{
+    background-color:rgba(185, 201, 211, 0.979) ;
+    padding: 60px;
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 70px auto;
+    overflow: hidden;
+    border: 3px solid rgba(179, 164, 164, 0.322);
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    color: rgb(15, 15, 15);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+    
+/*Formulario*/
+.formulariocompleto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+form {
+    
+    width: 40%;
+    height: 100%;
+    padding: 30px;
+    border: 2px solid rgba(70, 70, 70, 0.664);
+    border: none;
+    border-bottom: 4px solid rgba(65, 64, 64, 0.479);
+}
+form textarea{
+    width: 100%;
+    background-color: transparent;     
+}
+.botonformulario {
+    border: 2px solid rgb(88, 88, 88);
+    box-shadow: 0 0 4px 0 rgb(54, 54, 54); 
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.info .texto-footer{
+    width: 90%;
+    height: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/* fin del formulario*/
+
+
+
+
+
+form input{
+    width: 100%;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid black;
+}
+
+
+
+form textarea{
+    width: 100%;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid black;  
+}
+
+form #Enviar {
+
+/* fin del formulario*/
